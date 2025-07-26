@@ -11,7 +11,7 @@ export async function onRequest(context) {
   let playerPoster = "";
 
   try {
-    const res2 = await fetch("https://corepanel.corepanel.pro/api/verirepo.php");
+    const res2 = await fetch("https://panelcore.corepanel.pro/api/verirepo.php");
     const json = await res2.json();
 
     if (json.playerlogo) {
