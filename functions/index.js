@@ -16,7 +16,7 @@ export async function onRequest(context) {
     return String(parseInt(match) + 1);
   });
 
-  const apiUrl = "https://panelcorespor.corepanel.pro/api/verirepo.php";
+  const apiUrl = "https://corepanel.corepanel.pro/api/verirepo.php";
 
   let title = "";
   let description = "";
